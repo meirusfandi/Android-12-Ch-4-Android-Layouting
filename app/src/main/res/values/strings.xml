@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Instagram</string>
+    <string name="your_story">Your Story</string>
+    <string name="user_profile">User Profile</string>
 </resources>

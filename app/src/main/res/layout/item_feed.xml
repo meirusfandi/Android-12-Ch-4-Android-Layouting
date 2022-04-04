@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/feed_image_user"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_person"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:id="@+id/feed_tv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_profile"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/feed_image_user" />
+
+    <TextView
+        android:id="@+id/feed_tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_profile"
+        android:textSize="10sp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/feed_tv_user"
+        app:layout_constraintStart_toEndOf="@+id/feed_image_user"
+        tools:ignore="SmallSp" />
+
+
+    <ImageView
+        android:id="@+id/feed_btn_more"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_more_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/feed_content_image"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginVertical="8dp"
+        app:constraint_referenced_ids="feed_image_user,feed_btn_more"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feed_btn_more"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/feed_btn_like"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_favorite_border"
+        app:layout_constraintTop_toBottomOf="@id/feed_content_image"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/feed_btn_comment"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_favorite_border"
+        app:layout_constraintTop_toBottomOf="@id/feed_content_image"
+        app:layout_constraintStart_toEndOf="@id/feed_btn_like"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/feed_btn_share"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_favorite_border"
+        app:layout_constraintTop_toBottomOf="@id/feed_content_image"
+        app:layout_constraintStart_toEndOf="@id/feed_btn_comment"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/feed_btn_save"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_bookmark"
+        app:layout_constraintTop_toBottomOf="@id/feed_content_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
