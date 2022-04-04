@@ -2,4 +2,11 @@
     <string name="app_name">Instagram</string>
     <string name="your_story">Your Story</string>
     <string name="user_profile">User Profile</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_activity">Activity</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_live">Live</string>
+    <string name="menu_reel">Reel</string>
+    <string name="menu_story">Story</string>
+    <string name="menu_post">Post</string>
 </resources>
