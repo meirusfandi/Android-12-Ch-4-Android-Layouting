@@ -4,24 +4,42 @@ import id.my.fanslab.instagram.R
 
 object StoryDataSource {
     private val storyName = arrayOf(
-        "Andi Rahmadsyah",
-        "Andi Rahmadsyah",
-        "Andi Rahmadsyah",
-        "Andi Rahmadsyah",
-        "Andi Rahmadsyah",
-        "Andi Rahmadsyah"
+        "artstory",
+        "bridges",
+        "capture",
+        "captures",
+        "chars",
+        "h_co",
+        "home",
+        "maxwell",
+        "news_update",
+        "profile",
+        "art_profile",
+        "profilers"
     )
 
     private val storyImages = intArrayOf(
-        R.drawable.ic_person,
-        R.drawable.ic_person,
-        R.drawable.ic_person,
-        R.drawable.ic_person,
-        R.drawable.ic_person,
-        R.drawable.ic_person
+        R.drawable.art,
+        R.drawable.bridges,
+        R.drawable.capture,
+        R.drawable.captures,
+        R.drawable.chars,
+        R.drawable.hco,
+        R.drawable.home,
+        R.drawable.maxwell,
+        R.drawable.news,
+        R.drawable.profile,
+        R.drawable.profile_art,
+        R.drawable.profiles
     )
 
     private val storyIsOpen = booleanArrayOf(
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
         true,
         true,
         false,
