@@ -19,8 +19,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        supportActionBar?.elevation = 0.toFloat()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.tvActionBar.text = getString(R.string.app_name)
 
         binding.recyclerStory.setHasFixedSize(true)
         listStory.addAll(StoryDataSource.listStory)

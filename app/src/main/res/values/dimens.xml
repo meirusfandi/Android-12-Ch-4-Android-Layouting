@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="image_story_size">50dp</dimen>
+    <dimen name="image_story_size">60dp</dimen>
     <dimen name="story_margin_vertical">8dp</dimen>
     <dimen name="story_margin_horizontal">4dp</dimen>
     <dimen name="image_storry_padding">4dp</dimen>
