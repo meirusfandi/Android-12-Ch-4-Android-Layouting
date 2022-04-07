@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_plus"
+        android:title="@string/menu_add"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+
+<!--    <item-->
+<!--        android:id="@+id/menu_post"-->
+<!--        android:title="@string/menu_post"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_story"-->
+<!--        android:title="@string/menu_story"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_reel"-->
+<!--        android:title="@string/menu_reel"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_live"-->
+<!--        android:title="@string/menu_live"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+    <item
+        android:id="@+id/menu_activity"
+        android:title="@string/menu_activity"
+        android:icon="@drawable/ic_favorite_border"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_message"
+        android:title="@string/menu_messages"
+        android:icon="@drawable/ic_message"
+        app:showAsAction="always"/>
+</menu>

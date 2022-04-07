@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_marginVertical="@dimen/story_margin_vertical"
+    android:layout_marginHorizontal="@dimen/story_margin_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item_images"
+        android:layout_width="@dimen/image_story_size"
+        android:layout_height="@dimen/image_story_size"
+        android:padding="@dimen/image_storry_padding"
+        android:src="@drawable/ic_launcher_foreground"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:text="@string/your_story"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_width="@dimen/image_story_size"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        tools:ignore="SmallSp" />
+
+</LinearLayout>
